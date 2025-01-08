@@ -22,5 +22,11 @@ jobs:
       - name: install deps
         run: npm install
 
-      - name: run linting
+      - name: Run linting
         run: npm run lint
+
+      - name: Run build
+        run: npm run build
+
+      - name: Run test
+        run: npm run test
